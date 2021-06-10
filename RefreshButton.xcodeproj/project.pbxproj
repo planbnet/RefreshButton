@@ -7,24 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		DC5250B726723B7600418C1E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC5250B626723B7600418C1E /* AppDelegate.swift */; };
-		DC5250BB26723B7600418C1E /* Main.html in Resources */ = {isa = PBXBuildFile; fileRef = DC5250B926723B7600418C1E /* Main.html */; };
-		DC5250BD26723B7600418C1E /* Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = DC5250BC26723B7600418C1E /* Icon.png */; };
-		DC5250BF26723B7600418C1E /* Style.css in Resources */ = {isa = PBXBuildFile; fileRef = DC5250BE26723B7600418C1E /* Style.css */; };
-		DC5250C126723B7600418C1E /* Script.js in Resources */ = {isa = PBXBuildFile; fileRef = DC5250C026723B7600418C1E /* Script.js */; };
-		DC5250C326723B7600418C1E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC5250C226723B7600418C1E /* ViewController.swift */; };
-		DC5250C626723B7600418C1E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DC5250C426723B7600418C1E /* Main.storyboard */; };
+		DC5250B726723B7600418C1E /* App.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC5250B626723B7600418C1E /* App.swift */; };
 		DC5250C826723B7700418C1E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DC5250C726723B7700418C1E /* Assets.xcassets */; };
 		DC5250CF26723B7700418C1E /* RefreshButton Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = DC5250CE26723B7700418C1E /* RefreshButton Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
 		DC5250D426723B7700418C1E /* SafariWebExtensionHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC5250D326723B7700418C1E /* SafariWebExtensionHandler.swift */; };
-		DC5250D726723B7700418C1E /* _locales in Resources */ = {isa = PBXBuildFile; fileRef = DC5250D626723B7700418C1E /* _locales */; };
-		DC5250D926723B7700418C1E /* images in Resources */ = {isa = PBXBuildFile; fileRef = DC5250D826723B7700418C1E /* images */; };
-		DC5250DB26723B7700418C1E /* manifest.json in Resources */ = {isa = PBXBuildFile; fileRef = DC5250DA26723B7700418C1E /* manifest.json */; };
-		DC5250DD26723B7700418C1E /* background.js in Resources */ = {isa = PBXBuildFile; fileRef = DC5250DC26723B7700418C1E /* background.js */; };
-		DC5250DF26723B7700418C1E /* content.js in Resources */ = {isa = PBXBuildFile; fileRef = DC5250DE26723B7700418C1E /* content.js */; };
-		DC5250E126723B7700418C1E /* popup.html in Resources */ = {isa = PBXBuildFile; fileRef = DC5250E026723B7700418C1E /* popup.html */; };
-		DC5250E326723B7700418C1E /* popup.css in Resources */ = {isa = PBXBuildFile; fileRef = DC5250E226723B7700418C1E /* popup.css */; };
-		DC5250E526723B7700418C1E /* popup.js in Resources */ = {isa = PBXBuildFile; fileRef = DC5250E426723B7700418C1E /* popup.js */; };
+		DC5250F126723E0400418C1E /* Icon.pdf in Resources */ = {isa = PBXBuildFile; fileRef = DC5250F026723E0400418C1E /* Icon.pdf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,26 +40,13 @@
 
 /* Begin PBXFileReference section */
 		DC5250B326723B7600418C1E /* RefreshButton.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RefreshButton.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		DC5250B626723B7600418C1E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		DC5250BA26723B7600418C1E /* Base */ = {isa = PBXFileReference; lastKnownFileType = text.html; name = Base; path = ../Base.lproj/Main.html; sourceTree = "<group>"; };
-		DC5250BC26723B7600418C1E /* Icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Icon.png; sourceTree = "<group>"; };
-		DC5250BE26723B7600418C1E /* Style.css */ = {isa = PBXFileReference; lastKnownFileType = text.css; path = Style.css; sourceTree = "<group>"; };
-		DC5250C026723B7600418C1E /* Script.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = Script.js; sourceTree = "<group>"; };
-		DC5250C226723B7600418C1E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		DC5250C526723B7600418C1E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		DC5250B626723B7600418C1E /* App.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = App.swift; sourceTree = "<group>"; };
 		DC5250C726723B7700418C1E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		DC5250C926723B7700418C1E /* RefreshButton.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = RefreshButton.entitlements; sourceTree = "<group>"; };
 		DC5250CE26723B7700418C1E /* RefreshButton Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "RefreshButton Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
 		DC5250D326723B7700418C1E /* SafariWebExtensionHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SafariWebExtensionHandler.swift; sourceTree = "<group>"; };
-		DC5250D626723B7700418C1E /* _locales */ = {isa = PBXFileReference; lastKnownFileType = folder; path = _locales; sourceTree = "<group>"; };
-		DC5250D826723B7700418C1E /* images */ = {isa = PBXFileReference; lastKnownFileType = folder; path = images; sourceTree = "<group>"; };
-		DC5250DA26723B7700418C1E /* manifest.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = manifest.json; sourceTree = "<group>"; };
-		DC5250DC26723B7700418C1E /* background.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = background.js; sourceTree = "<group>"; };
-		DC5250DE26723B7700418C1E /* content.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = content.js; sourceTree = "<group>"; };
-		DC5250E026723B7700418C1E /* popup.html */ = {isa = PBXFileReference; lastKnownFileType = text.html; path = popup.html; sourceTree = "<group>"; };
-		DC5250E226723B7700418C1E /* popup.css */ = {isa = PBXFileReference; lastKnownFileType = text.css; path = popup.css; sourceTree = "<group>"; };
-		DC5250E426723B7700418C1E /* popup.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = popup.js; sourceTree = "<group>"; };
 		DC5250E626723B7700418C1E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DC5250F026723E0400418C1E /* Icon.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = Icon.pdf; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -114,25 +88,11 @@
 		DC5250B526723B7600418C1E /* RefreshButton */ = {
 			isa = PBXGroup;
 			children = (
-				DC5250B626723B7600418C1E /* AppDelegate.swift */,
-				DC5250C226723B7600418C1E /* ViewController.swift */,
-				DC5250C426723B7600418C1E /* Main.storyboard */,
+				DC5250B626723B7600418C1E /* App.swift */,
 				DC5250C726723B7700418C1E /* Assets.xcassets */,
 				DC5250C926723B7700418C1E /* RefreshButton.entitlements */,
-				DC5250B826723B7600418C1E /* Resources */,
 			);
 			path = RefreshButton;
-			sourceTree = "<group>";
-		};
-		DC5250B826723B7600418C1E /* Resources */ = {
-			isa = PBXGroup;
-			children = (
-				DC5250B926723B7600418C1E /* Main.html */,
-				DC5250BC26723B7600418C1E /* Icon.png */,
-				DC5250BE26723B7600418C1E /* Style.css */,
-				DC5250C026723B7600418C1E /* Script.js */,
-			);
-			path = Resources;
 			sourceTree = "<group>";
 		};
 		DC5250D226723B7700418C1E /* RefreshButton Extension */ = {
@@ -140,24 +100,9 @@
 			children = (
 				DC5250D326723B7700418C1E /* SafariWebExtensionHandler.swift */,
 				DC5250E626723B7700418C1E /* Info.plist */,
-				DC5250D526723B7700418C1E /* Resources */,
+				DC5250F026723E0400418C1E /* Icon.pdf */,
 			);
 			path = "RefreshButton Extension";
-			sourceTree = "<group>";
-		};
-		DC5250D526723B7700418C1E /* Resources */ = {
-			isa = PBXGroup;
-			children = (
-				DC5250D626723B7700418C1E /* _locales */,
-				DC5250D826723B7700418C1E /* images */,
-				DC5250DA26723B7700418C1E /* manifest.json */,
-				DC5250DC26723B7700418C1E /* background.js */,
-				DC5250DE26723B7700418C1E /* content.js */,
-				DC5250E026723B7700418C1E /* popup.html */,
-				DC5250E226723B7700418C1E /* popup.css */,
-				DC5250E426723B7700418C1E /* popup.js */,
-			);
-			path = Resources;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -241,12 +186,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DC5250BD26723B7600418C1E /* Icon.png in Resources */,
-				DC5250C626723B7600418C1E /* Main.storyboard in Resources */,
-				DC5250C126723B7600418C1E /* Script.js in Resources */,
-				DC5250BB26723B7600418C1E /* Main.html in Resources */,
 				DC5250C826723B7700418C1E /* Assets.xcassets in Resources */,
-				DC5250BF26723B7600418C1E /* Style.css in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -254,14 +194,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DC5250DD26723B7700418C1E /* background.js in Resources */,
-				DC5250E326723B7700418C1E /* popup.css in Resources */,
-				DC5250E126723B7700418C1E /* popup.html in Resources */,
-				DC5250D926723B7700418C1E /* images in Resources */,
-				DC5250DB26723B7700418C1E /* manifest.json in Resources */,
-				DC5250D726723B7700418C1E /* _locales in Resources */,
-				DC5250DF26723B7700418C1E /* content.js in Resources */,
-				DC5250E526723B7700418C1E /* popup.js in Resources */,
+				DC5250F126723E0400418C1E /* Icon.pdf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -272,8 +205,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DC5250C326723B7600418C1E /* ViewController.swift in Sources */,
-				DC5250B726723B7600418C1E /* AppDelegate.swift in Sources */,
+				DC5250B726723B7600418C1E /* App.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -294,25 +226,6 @@
 			targetProxy = DC5250D026723B7700418C1E /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
-
-/* Begin PBXVariantGroup section */
-		DC5250B926723B7600418C1E /* Main.html */ = {
-			isa = PBXVariantGroup;
-			children = (
-				DC5250BA26723B7600418C1E /* Base */,
-			);
-			name = Main.html;
-			sourceTree = "<group>";
-		};
-		DC5250C426723B7600418C1E /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				DC5250C526723B7600418C1E /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		DC5250E726723B7700418C1E /* Debug */ = {
@@ -433,6 +346,8 @@
 		DC5250EA26723B7700418C1E /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = NO;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = FXBVM5H5JH;
@@ -442,13 +357,16 @@
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = "RefreshButton Extension/Info.plist";
 				INFOPLIST_KEY_CFBundleDisplayName = "RefreshButton Extension";
-				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INFOPLIST_KEY_CFBundleExecutable = "RefreshButton Extension";
+				INFOPLIST_KEY_CFBundleName = "RefreshButton Extension";
+				INFOPLIST_KEY_CFBundleVersion = 1;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "Copyright © 2021 Felix Rotthowe";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/../Frameworks",
 					"@executable_path/../../../../Frameworks",
 				);
-				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MACOSX_DEPLOYMENT_TARGET = 12.0;
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = org.planbnet.RefreshButton.Extension;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -461,6 +379,8 @@
 		DC5250EB26723B7700418C1E /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = NO;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = FXBVM5H5JH;
@@ -470,13 +390,16 @@
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = "RefreshButton Extension/Info.plist";
 				INFOPLIST_KEY_CFBundleDisplayName = "RefreshButton Extension";
-				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INFOPLIST_KEY_CFBundleExecutable = "RefreshButton Extension";
+				INFOPLIST_KEY_CFBundleName = "RefreshButton Extension";
+				INFOPLIST_KEY_CFBundleVersion = 1;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "Copyright © 2021 Felix Rotthowe";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/../Frameworks",
 					"@executable_path/../../../../Frameworks",
 				);
-				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MACOSX_DEPLOYMENT_TARGET = 12.0;
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = org.planbnet.RefreshButton.Extension;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -501,15 +424,16 @@
 				ENABLE_HARDENED_RUNTIME = YES;
 				ENABLE_USER_SELECTED_FILES = readonly;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_KEY_CFBundleDisplayName = RefreshButton;
-				INFOPLIST_KEY_NSHumanReadableCopyright = "";
-				INFOPLIST_KEY_NSMainStoryboardFile = Main;
-				INFOPLIST_KEY_NSPrincipalClass = NSApplication;
+				INFOPLIST_KEY_CFBundleDisplayName = "Refresh Button";
+				INFOPLIST_KEY_CFBundleExecutable = RefreshButton;
+				INFOPLIST_KEY_CFBundleName = RefreshButton;
+				INFOPLIST_KEY_CFBundleVersion = 1;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "Felix Rotthowe";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/../Frameworks",
 				);
-				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MACOSX_DEPLOYMENT_TARGET = 12.0;
 				MARKETING_VERSION = 1.0;
 				OTHER_LDFLAGS = (
 					"-framework",
@@ -537,15 +461,16 @@
 				ENABLE_HARDENED_RUNTIME = YES;
 				ENABLE_USER_SELECTED_FILES = readonly;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_KEY_CFBundleDisplayName = RefreshButton;
-				INFOPLIST_KEY_NSHumanReadableCopyright = "";
-				INFOPLIST_KEY_NSMainStoryboardFile = Main;
-				INFOPLIST_KEY_NSPrincipalClass = NSApplication;
+				INFOPLIST_KEY_CFBundleDisplayName = "Refresh Button";
+				INFOPLIST_KEY_CFBundleExecutable = RefreshButton;
+				INFOPLIST_KEY_CFBundleName = RefreshButton;
+				INFOPLIST_KEY_CFBundleVersion = 1;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "Felix Rotthowe";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/../Frameworks",
 				);
-				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MACOSX_DEPLOYMENT_TARGET = 12.0;
 				MARKETING_VERSION = 1.0;
 				OTHER_LDFLAGS = (
 					"-framework",
