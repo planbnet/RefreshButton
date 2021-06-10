@@ -15,19 +15,25 @@ struct refreshApp: App {
     var body: some Scene {
         WindowGroup {
             ContentView()
+                .fixedSize()
+                .task {
+                    NSApplication.shared.windows.first?.styleMask = [.titled,.closable]
+                }
         }
     }
 }
 
 struct ContentView: View {
     var body: some View {
-        Button("Please enable this extension in Safari") {
-            SFSafariApplication.showPreferencesForExtension(withIdentifier: extensionBundleIdentifier) { error in
-                DispatchQueue.main.async {
-                    NSApplication.shared.terminate(nil)
+        VStack {
+            Button("Please enable this extension in Safari") {
+                SFSafariApplication.showPreferencesForExtension(withIdentifier: extensionBundleIdentifier) { error in
+                    DispatchQueue.main.async {
+                        NSApplication.shared.terminate(nil)
+                    }
                 }
-            }
-        }.padding()
+            }.padding()
+        }
     }
 }
 

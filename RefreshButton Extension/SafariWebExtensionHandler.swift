@@ -20,8 +20,11 @@ class SafariWebExtensionHandler: SFSafariExtensionHandler {
     override func validateToolbarItem(in window: SFSafariWindow,
                                       validationHandler: @escaping (Bool, String) -> Void) {
         guard intialized == false else { return }
-        let image = NSImage(systemSymbolName: "arrow.clockwise", accessibilityDescription: "Refresh")
-        window.getToolbarItem { $0?.setImage(image) }
+        let image = NSImage(systemSymbolName: "arrow.clockwise", accessibilityDescription: NSLocalizedString("Refresh", comment: "Refresh button image") )
+        window.getToolbarItem { icon in
+            icon?.setImage(image)
+            icon?.setLabel( NSLocalizedString("Refresh", comment:"Refresh button label") )
+        }
         intialized = true
     }
     
