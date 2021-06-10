@@ -427,7 +427,7 @@
 				INFOPLIST_KEY_CFBundleDisplayName = "Refresh Button";
 				INFOPLIST_KEY_CFBundleExecutable = RefreshButton;
 				INFOPLIST_KEY_CFBundleName = RefreshButton;
-				INFOPLIST_KEY_CFBundleVersion = 1;
+				INFOPLIST_KEY_CFBundleVersion = 2;
 				INFOPLIST_KEY_NSHumanReadableCopyright = "Felix Rotthowe";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -464,7 +464,7 @@
 				INFOPLIST_KEY_CFBundleDisplayName = "Refresh Button";
 				INFOPLIST_KEY_CFBundleExecutable = RefreshButton;
 				INFOPLIST_KEY_CFBundleName = RefreshButton;
-				INFOPLIST_KEY_CFBundleVersion = 1;
+				INFOPLIST_KEY_CFBundleVersion = 2;
 				INFOPLIST_KEY_NSHumanReadableCopyright = "Felix Rotthowe";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
