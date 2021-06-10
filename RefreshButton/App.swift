@@ -17,7 +17,7 @@ struct refreshApp: App {
             ContentView()
                 .fixedSize()
                 .task {
-                    NSApplication.shared.windows.first?.styleMask = [.titled,.closable]
+                    NSApplication.shared.windows.first?.styleMask = [.titled, .closable]
                 }.onDisappear {
                     NSApplication.shared.terminate(nil)
                 }
@@ -28,6 +28,10 @@ struct refreshApp: App {
 struct ContentView: View {
     var body: some View {
         VStack {
+            Image("LargeIcon")
+                .resizable()
+                .scaledToFit()
+                .frame(width: 200, height: 200)
             Button("Please enable this extension in Safari") {
                 SFSafariApplication.showPreferencesForExtension(withIdentifier: extensionBundleIdentifier) { error in
                     DispatchQueue.main.async {
