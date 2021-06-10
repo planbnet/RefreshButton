@@ -1,0 +1,594 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		DC5250B726723B7600418C1E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC5250B626723B7600418C1E /* AppDelegate.swift */; };
+		DC5250BB26723B7600418C1E /* Main.html in Resources */ = {isa = PBXBuildFile; fileRef = DC5250B926723B7600418C1E /* Main.html */; };
+		DC5250BD26723B7600418C1E /* Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = DC5250BC26723B7600418C1E /* Icon.png */; };
+		DC5250BF26723B7600418C1E /* Style.css in Resources */ = {isa = PBXBuildFile; fileRef = DC5250BE26723B7600418C1E /* Style.css */; };
+		DC5250C126723B7600418C1E /* Script.js in Resources */ = {isa = PBXBuildFile; fileRef = DC5250C026723B7600418C1E /* Script.js */; };
+		DC5250C326723B7600418C1E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC5250C226723B7600418C1E /* ViewController.swift */; };
+		DC5250C626723B7600418C1E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DC5250C426723B7600418C1E /* Main.storyboard */; };
+		DC5250C826723B7700418C1E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DC5250C726723B7700418C1E /* Assets.xcassets */; };
+		DC5250CF26723B7700418C1E /* RefreshButton Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = DC5250CE26723B7700418C1E /* RefreshButton Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		DC5250D426723B7700418C1E /* SafariWebExtensionHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC5250D326723B7700418C1E /* SafariWebExtensionHandler.swift */; };
+		DC5250D726723B7700418C1E /* _locales in Resources */ = {isa = PBXBuildFile; fileRef = DC5250D626723B7700418C1E /* _locales */; };
+		DC5250D926723B7700418C1E /* images in Resources */ = {isa = PBXBuildFile; fileRef = DC5250D826723B7700418C1E /* images */; };
+		DC5250DB26723B7700418C1E /* manifest.json in Resources */ = {isa = PBXBuildFile; fileRef = DC5250DA26723B7700418C1E /* manifest.json */; };
+		DC5250DD26723B7700418C1E /* background.js in Resources */ = {isa = PBXBuildFile; fileRef = DC5250DC26723B7700418C1E /* background.js */; };
+		DC5250DF26723B7700418C1E /* content.js in Resources */ = {isa = PBXBuildFile; fileRef = DC5250DE26723B7700418C1E /* content.js */; };
+		DC5250E126723B7700418C1E /* popup.html in Resources */ = {isa = PBXBuildFile; fileRef = DC5250E026723B7700418C1E /* popup.html */; };
+		DC5250E326723B7700418C1E /* popup.css in Resources */ = {isa = PBXBuildFile; fileRef = DC5250E226723B7700418C1E /* popup.css */; };
+		DC5250E526723B7700418C1E /* popup.js in Resources */ = {isa = PBXBuildFile; fileRef = DC5250E426723B7700418C1E /* popup.js */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		DC5250D026723B7700418C1E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DC5250AB26723B7600418C1E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DC5250CD26723B7700418C1E;
+			remoteInfo = "RefreshButton Extension";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		DC5250EC26723B7700418C1E /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				DC5250CF26723B7700418C1E /* RefreshButton Extension.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		DC5250B326723B7600418C1E /* RefreshButton.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RefreshButton.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DC5250B626723B7600418C1E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		DC5250BA26723B7600418C1E /* Base */ = {isa = PBXFileReference; lastKnownFileType = text.html; name = Base; path = ../Base.lproj/Main.html; sourceTree = "<group>"; };
+		DC5250BC26723B7600418C1E /* Icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Icon.png; sourceTree = "<group>"; };
+		DC5250BE26723B7600418C1E /* Style.css */ = {isa = PBXFileReference; lastKnownFileType = text.css; path = Style.css; sourceTree = "<group>"; };
+		DC5250C026723B7600418C1E /* Script.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = Script.js; sourceTree = "<group>"; };
+		DC5250C226723B7600418C1E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		DC5250C526723B7600418C1E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		DC5250C726723B7700418C1E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		DC5250C926723B7700418C1E /* RefreshButton.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = RefreshButton.entitlements; sourceTree = "<group>"; };
+		DC5250CE26723B7700418C1E /* RefreshButton Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "RefreshButton Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		DC5250D326723B7700418C1E /* SafariWebExtensionHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SafariWebExtensionHandler.swift; sourceTree = "<group>"; };
+		DC5250D626723B7700418C1E /* _locales */ = {isa = PBXFileReference; lastKnownFileType = folder; path = _locales; sourceTree = "<group>"; };
+		DC5250D826723B7700418C1E /* images */ = {isa = PBXFileReference; lastKnownFileType = folder; path = images; sourceTree = "<group>"; };
+		DC5250DA26723B7700418C1E /* manifest.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = manifest.json; sourceTree = "<group>"; };
+		DC5250DC26723B7700418C1E /* background.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = background.js; sourceTree = "<group>"; };
+		DC5250DE26723B7700418C1E /* content.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = content.js; sourceTree = "<group>"; };
+		DC5250E026723B7700418C1E /* popup.html */ = {isa = PBXFileReference; lastKnownFileType = text.html; path = popup.html; sourceTree = "<group>"; };
+		DC5250E226723B7700418C1E /* popup.css */ = {isa = PBXFileReference; lastKnownFileType = text.css; path = popup.css; sourceTree = "<group>"; };
+		DC5250E426723B7700418C1E /* popup.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = popup.js; sourceTree = "<group>"; };
+		DC5250E626723B7700418C1E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DC5250B026723B7600418C1E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DC5250CB26723B7700418C1E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		DC5250AA26723B7600418C1E = {
+			isa = PBXGroup;
+			children = (
+				DC5250B526723B7600418C1E /* RefreshButton */,
+				DC5250D226723B7700418C1E /* RefreshButton Extension */,
+				DC5250B426723B7600418C1E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		DC5250B426723B7600418C1E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DC5250B326723B7600418C1E /* RefreshButton.app */,
+				DC5250CE26723B7700418C1E /* RefreshButton Extension.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DC5250B526723B7600418C1E /* RefreshButton */ = {
+			isa = PBXGroup;
+			children = (
+				DC5250B626723B7600418C1E /* AppDelegate.swift */,
+				DC5250C226723B7600418C1E /* ViewController.swift */,
+				DC5250C426723B7600418C1E /* Main.storyboard */,
+				DC5250C726723B7700418C1E /* Assets.xcassets */,
+				DC5250C926723B7700418C1E /* RefreshButton.entitlements */,
+				DC5250B826723B7600418C1E /* Resources */,
+			);
+			path = RefreshButton;
+			sourceTree = "<group>";
+		};
+		DC5250B826723B7600418C1E /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				DC5250B926723B7600418C1E /* Main.html */,
+				DC5250BC26723B7600418C1E /* Icon.png */,
+				DC5250BE26723B7600418C1E /* Style.css */,
+				DC5250C026723B7600418C1E /* Script.js */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		DC5250D226723B7700418C1E /* RefreshButton Extension */ = {
+			isa = PBXGroup;
+			children = (
+				DC5250D326723B7700418C1E /* SafariWebExtensionHandler.swift */,
+				DC5250E626723B7700418C1E /* Info.plist */,
+				DC5250D526723B7700418C1E /* Resources */,
+			);
+			path = "RefreshButton Extension";
+			sourceTree = "<group>";
+		};
+		DC5250D526723B7700418C1E /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				DC5250D626723B7700418C1E /* _locales */,
+				DC5250D826723B7700418C1E /* images */,
+				DC5250DA26723B7700418C1E /* manifest.json */,
+				DC5250DC26723B7700418C1E /* background.js */,
+				DC5250DE26723B7700418C1E /* content.js */,
+				DC5250E026723B7700418C1E /* popup.html */,
+				DC5250E226723B7700418C1E /* popup.css */,
+				DC5250E426723B7700418C1E /* popup.js */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DC5250B226723B7600418C1E /* RefreshButton */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DC5250ED26723B7700418C1E /* Build configuration list for PBXNativeTarget "RefreshButton" */;
+			buildPhases = (
+				DC5250AF26723B7600418C1E /* Sources */,
+				DC5250B026723B7600418C1E /* Frameworks */,
+				DC5250B126723B7600418C1E /* Resources */,
+				DC5250EC26723B7700418C1E /* Embed App Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DC5250D126723B7700418C1E /* PBXTargetDependency */,
+			);
+			name = RefreshButton;
+			productName = RefreshButton;
+			productReference = DC5250B326723B7600418C1E /* RefreshButton.app */;
+			productType = "com.apple.product-type.application";
+		};
+		DC5250CD26723B7700418C1E /* RefreshButton Extension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DC5250E926723B7700418C1E /* Build configuration list for PBXNativeTarget "RefreshButton Extension" */;
+			buildPhases = (
+				DC5250CA26723B7700418C1E /* Sources */,
+				DC5250CB26723B7700418C1E /* Frameworks */,
+				DC5250CC26723B7700418C1E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "RefreshButton Extension";
+			productName = "RefreshButton Extension";
+			productReference = DC5250CE26723B7700418C1E /* RefreshButton Extension.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DC5250AB26723B7600418C1E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1300;
+				LastUpgradeCheck = 1300;
+				TargetAttributes = {
+					DC5250B226723B7600418C1E = {
+						CreatedOnToolsVersion = 13.0;
+					};
+					DC5250CD26723B7700418C1E = {
+						CreatedOnToolsVersion = 13.0;
+					};
+				};
+			};
+			buildConfigurationList = DC5250AE26723B7600418C1E /* Build configuration list for PBXProject "RefreshButton" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = DC5250AA26723B7600418C1E;
+			productRefGroup = DC5250B426723B7600418C1E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DC5250B226723B7600418C1E /* RefreshButton */,
+				DC5250CD26723B7700418C1E /* RefreshButton Extension */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DC5250B126723B7600418C1E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DC5250BD26723B7600418C1E /* Icon.png in Resources */,
+				DC5250C626723B7600418C1E /* Main.storyboard in Resources */,
+				DC5250C126723B7600418C1E /* Script.js in Resources */,
+				DC5250BB26723B7600418C1E /* Main.html in Resources */,
+				DC5250C826723B7700418C1E /* Assets.xcassets in Resources */,
+				DC5250BF26723B7600418C1E /* Style.css in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DC5250CC26723B7700418C1E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DC5250DD26723B7700418C1E /* background.js in Resources */,
+				DC5250E326723B7700418C1E /* popup.css in Resources */,
+				DC5250E126723B7700418C1E /* popup.html in Resources */,
+				DC5250D926723B7700418C1E /* images in Resources */,
+				DC5250DB26723B7700418C1E /* manifest.json in Resources */,
+				DC5250D726723B7700418C1E /* _locales in Resources */,
+				DC5250DF26723B7700418C1E /* content.js in Resources */,
+				DC5250E526723B7700418C1E /* popup.js in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DC5250AF26723B7600418C1E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DC5250C326723B7600418C1E /* ViewController.swift in Sources */,
+				DC5250B726723B7600418C1E /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DC5250CA26723B7700418C1E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DC5250D426723B7700418C1E /* SafariWebExtensionHandler.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		DC5250D126723B7700418C1E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DC5250CD26723B7700418C1E /* RefreshButton Extension */;
+			targetProxy = DC5250D026723B7700418C1E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		DC5250B926723B7600418C1E /* Main.html */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DC5250BA26723B7600418C1E /* Base */,
+			);
+			name = Main.html;
+			sourceTree = "<group>";
+		};
+		DC5250C426723B7600418C1E /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DC5250C526723B7600418C1E /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		DC5250E726723B7700418C1E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		DC5250E826723B7700418C1E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		DC5250EA26723B7700418C1E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = FXBVM5H5JH;
+				ENABLE_APP_SANDBOX = YES;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_USER_SELECTED_FILES = readonly;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "RefreshButton Extension/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "RefreshButton Extension";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@executable_path/../../../../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = org.planbnet.RefreshButton.Extension;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		DC5250EB26723B7700418C1E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = FXBVM5H5JH;
+				ENABLE_APP_SANDBOX = YES;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_USER_SELECTED_FILES = readonly;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "RefreshButton Extension/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "RefreshButton Extension";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@executable_path/../../../../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = org.planbnet.RefreshButton.Extension;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		DC5250EE26723B7700418C1E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = RefreshButton/RefreshButton.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = FXBVM5H5JH;
+				ENABLE_APP_SANDBOX = YES;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_USER_SELECTED_FILES = readonly;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = RefreshButton;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INFOPLIST_KEY_NSMainStoryboardFile = Main;
+				INFOPLIST_KEY_NSPrincipalClass = NSApplication;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"-framework",
+					WebKit,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = org.planbnet.RefreshButton;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		DC5250EF26723B7700418C1E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = RefreshButton/RefreshButton.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = FXBVM5H5JH;
+				ENABLE_APP_SANDBOX = YES;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_USER_SELECTED_FILES = readonly;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = RefreshButton;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INFOPLIST_KEY_NSMainStoryboardFile = Main;
+				INFOPLIST_KEY_NSPrincipalClass = NSApplication;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"-framework",
+					WebKit,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = org.planbnet.RefreshButton;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DC5250AE26723B7600418C1E /* Build configuration list for PBXProject "RefreshButton" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DC5250E726723B7700418C1E /* Debug */,
+				DC5250E826723B7700418C1E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DC5250E926723B7700418C1E /* Build configuration list for PBXNativeTarget "RefreshButton Extension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DC5250EA26723B7700418C1E /* Debug */,
+				DC5250EB26723B7700418C1E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DC5250ED26723B7700418C1E /* Build configuration list for PBXNativeTarget "RefreshButton" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DC5250EE26723B7700418C1E /* Debug */,
+				DC5250EF26723B7700418C1E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = DC5250AB26723B7600418C1E /* Project object */;
+}
