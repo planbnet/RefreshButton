@@ -18,6 +18,8 @@ struct refreshApp: App {
                 .fixedSize()
                 .task {
                     NSApplication.shared.windows.first?.styleMask = [.titled,.closable]
+                }.onDisappear {
+                    NSApplication.shared.terminate(nil)
                 }
         }
     }
